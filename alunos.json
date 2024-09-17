@@ -1,0 +1,16 @@
+{
+  "alunos": [
+    {
+      "nome": "João",
+      "serie": "5ª série"
+    },
+    {
+      "nome": "Maria",
+      "serie": "6ª série"
+    },
+    {
+      "nome": "Pedro",
+      "serie": "7ª série"
+    }
+  ]
+}

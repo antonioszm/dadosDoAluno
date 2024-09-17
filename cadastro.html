@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+      <h2 class="bemVindo">Cadastre-se</h2>
+      <input class="pergunta" id="nome" placeholder="Insira seu Nome Completo" required>
+      <input class="pergunta" id="idade" placeholder="Insira sua Idade" required>
+      <input class="pergunta" id="serie" placeholder="Insira sua Série" required type="text">
+      <input class="pergunta" id="escola" placeholder="Insira sua Escola" required type="text">
+      <input class="pergunta" id="materia" placeholder="Insira sua Matéria favorita" required type="text">
+      <div>
+        <h3>Endereço</h3>
+        <input class="pergunta" id="cep" placeholder="Insira seu CEP" required type="text">
+        <input class="pergunta" id="rua" placeholder="Insira sua Rua" required type="text" disabled>
+        <input class="pergunta" id="cidade" placeholder="Insira sua Cidade" required type="text" disabled>
+        <input class="pergunta" id="estado" placeholder="Insira sua Estado" required type="text" disabled>
+      </div>
+      <div>
+        <button type="submit" class="confirmarCadastro">Criar Conta</button>
+      </div>
+  </div>
+  <script type="module" src="cadastro.js"></script>
+</body>
+</html>
